@@ -1,0 +1,88 @@
+/* index.css */
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Width based on the mobile design view */
+}
+
+h1 {
+    color: #007bff; /* A nice blue, or use the design palette colors */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    min-height: 80px;
+    font-size: 1em;
+}
+
+/* Styling the green/blue output boxes from the design */
+#translation-output {
+    background-color: #e0f7fa; /* Light blue/cyan */
+    border: 1px solid #00bcd4;
+}
+
+#text-input {
+    background-color: #e8f5e9; /* Light green */
+    border: 1px solid #4caf50;
+}
+
+.language-selection div {
+    padding: 10px 0;
+}
+
+.language-selection label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff; /* Main button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

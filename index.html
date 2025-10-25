@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PollyGlot - Translation App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>PollyGlot</h1>
+        <p>Perfect Translation Every Time</p>
+        
+        <div class="input-section">
+            <label for="text-input">Text to translate</label>
+            <textarea id="text-input" placeholder="How are you?"></textarea>
+        </div>
+
+        <div class="language-selection">
+            <label>Select language</label>
+            <div>
+                <input type="radio" id="lang-french" name="target-lang" value="French" checked>
+                <label for="lang-french">French 🇫🇷</label><br>
+
+                <input type="radio" id="lang-spanish" name="target-lang" value="Spanish">
+                <label for="lang-spanish">Spanish 🇪🇸</label><br>
+
+                <input type="radio" id="lang-japanese" name="target-lang" value="Japanese">
+                <label for="lang-japanese">Japanese 🇯🇵</label>
+            </div>
+        </div>
+
+        <button id="translate-btn">Translate</button>
+
+        <div class="output-section">
+            <label for="translation-output">Your translation</label>
+            <textarea id="translation-output" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>

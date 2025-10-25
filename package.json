@@ -1,0 +1,19 @@
+{
+  "name": "Scrim-s05rqc4",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~0xrr/s0hlhmrt3h/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start-server": "node server.js",
+    "type":"module"
+  },
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "vite": "latest"
+  }
+}
