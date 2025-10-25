@@ -4,12 +4,20 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "package.json", 
+      "use": "@vercel/vite" 
     }
   ],
   "routes": [
     {
       "src": "/api/translate",
       "dest": "server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/$1" 
     }
   ]
 }
