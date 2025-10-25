@@ -4,7 +4,7 @@ const textInput = document.getElementById('text-input');
 const translationOutput = document.getElementById('translation-output');
 
 // The port where your Express server is running
-const SERVER_URL = 'http://localhost:3001/api/translate'; 
+const SERVER_URL = '/api/translate';
 
 translateBtn.addEventListener('click', translateText);
 
